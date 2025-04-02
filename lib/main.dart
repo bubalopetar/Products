@@ -119,6 +119,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               ),
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Gender.male.name),
               value: filter.gender.male != null,
               onChanged: (newValue) {
@@ -129,6 +130,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Gender.female.name),
               value: filter.gender.female != null,
               onChanged: (newValue) {
@@ -140,6 +142,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Gender.unisex.name),
               value: filter.gender.unisex != null,
               onChanged: (newValue) {
@@ -165,6 +168,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
             ),
             CheckboxListTile(
               title: Text(Category.accessories.name),
+              visualDensity: VisualDensity.compact,
               value: filter.category.accessories != null,
               onChanged: (newValue) {
                 setState(() {
@@ -175,6 +179,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.bags.name),
               value: filter.category.bags != null,
               onChanged: (newValue) {
@@ -186,6 +191,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.clothing.name),
               value: filter.category.clothing != null,
               onChanged: (newValue) {
@@ -197,6 +203,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.homeDecor.name),
               value: filter.category.homeDecor != null,
               onChanged: (newValue) {
@@ -208,6 +215,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.jewelry.name),
               value: filter.category.jewelry != null,
               onChanged: (newValue) {
@@ -219,6 +227,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.shoes.name),
               value: filter.category.shoes != null,
               onChanged: (newValue) {
@@ -230,6 +239,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.tableware.name),
               value: filter.category.tableware != null,
               onChanged: (newValue) {
@@ -241,6 +251,7 @@ class _AppDrawerState extends ConsumerState<AppDrawer> {
               controlAffinity: ListTileControlAffinity.leading,
             ),
             CheckboxListTile(
+              visualDensity: VisualDensity.compact,
               title: Text(Category.textilesLinens.name),
               value: filter.category.textilesLinens != null,
               onChanged: (newValue) {

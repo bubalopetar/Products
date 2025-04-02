@@ -1,16 +1,34 @@
-# products
+# Products
 
-A new Flutter project.
+Show a list of products and search, filter, and browse through it.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+Make sure you have Flutter 3.24.5 installed on your machine. You can check it with command:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+which flutter
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/bubalopetar/Products.git
+```
+
+## Run
+
+```bash
+flutter run
+```
+
+## Features
+When the app is started all the items are loaded and shown on the screen.
+You can browse through them in infinite scroll, search for specific item,s or filter items.
+
+<div style="display: flex; justify-content: center;gap: 20px;">
+  <img src="assets/home.jpg" width="300" />
+  <img src="assets/search.jpg" width="300" />
+  <img src="assets/filter.jpg" width="300" />
+  <img src="assets/item.jpg" width="300" />
+</div>
