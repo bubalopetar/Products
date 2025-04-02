@@ -30,7 +30,7 @@ flutter test
 
 ## Features
 When the app is started all the items are loaded and shown on the screen.
-You can browse through them in infinite scroll, search for specific item,s or filter items.
+You can browse through them in infinite scroll, search for specific items or filter items.
 
 <div style="display: flex; justify-content: center;gap: 20px;">
   <img src="assets/home.jpg" width="300" />
