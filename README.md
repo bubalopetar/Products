@@ -22,6 +22,12 @@ git clone https://github.com/bubalopetar/Products.git
 flutter run
 ```
 
+## Run tests
+
+```bash
+flutter test
+```
+
 ## Features
 When the app is started all the items are loaded and shown on the screen.
 You can browse through them in infinite scroll, search for specific item,s or filter items.
